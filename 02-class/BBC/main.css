@@ -1,0 +1,145 @@
+/*
+  Custom CSS Reset
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+
+/*above css is reset*/
+
+/*main css is below*/
+html {
+  color: rgb(61, 61, 61);
+  font-family: Arial, sans-serif;
+}
+
+
+nav a{
+  text-decoration: none;
+  color: inherit;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav {
+  margin: 10px;
+  background-color: black;
+  color: white;
+  padding: 10px 4px;
+  font-size: 12px;
+}
+
+.welcome {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 10px 5px;
+
+}
+
+.date {
+  color: hsl(0, 0%, 63%);
+  font: inherit;
+}
+
+
+
+.main-container {
+  width: 100%;
+}
+.main-half {
+  width: 50%;
+}
+
+.img-main {
+  width: 100%;
+  height: 400px
+}
+
+.img-main--right {
+  height: 200px;
+  width: 100%;
+}
+
+.media-container {
+  position: relative;
+}
+
+.media-container__text {
+  position: absolute;
+  bottom: -1px;
+}
+
+.main-container {
+  display: flex;
+}
+
+.media-right {
+  width: 50%;
+
+}
+
+.main-right {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.media-container  {
+  padding: 0 2px;
+}
+
+.section-news, .news-flex, .article-news {
+  width: 100%;
+}
+
+.news-flex {
+  display: flex;
+
+}
+
+.media-third {
+  width: 100%;
+  height: 150px;
+  padding: 5px;
+  margin: 5px;
+
+}
+
+
+

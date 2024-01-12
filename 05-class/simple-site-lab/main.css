@@ -1,0 +1,90 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  ol, ul {
+    list-style: none;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+
+
+
+  /*main css goes here*/
+
+  body {
+    background-color: rgb(134, 209, 238);
+    color: white;
+    max-width: 720px;
+    margin: auto;
+
+  }
+
+  .container {
+    margin: 20px;
+    border: 3px solid rgb(44, 201, 122);
+    padding: 30px;
+    
+  }
+
+  img {
+    width: 150px;
+    height: auto;
+    float: right;
+  }
+
+  h1 {
+    font-style: italic;
+  }
+
+  h1, nav {
+    text-align: center;
+  }
+
+.pipe-char {
+    display: inline-block;
+    width: 2px;
+    height: 10px;
+    color: grey;
+    border: 1px solid grey;
+    margin: 0 3px;
+}
+nav {
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.portfolio-nav {
+    text-decoration: underline;
+    
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+nav, h2 {
+    font-family: sans-serif;
+}
+
+.inactive-link {
+    color: rgb(44, 201, 122);
+}
