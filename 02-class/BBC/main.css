@@ -25,16 +25,17 @@
     isolation: isolate;
   }
 
-/*above css is reset*/
 
-/*main css is below*/
+
+/*main css*/
+
 html {
   color: rgb(61, 61, 61);
   font-family: Arial, sans-serif;
 }
 
 
-nav a{
+nav a {
   text-decoration: none;
   color: inherit;
 }
@@ -46,11 +47,6 @@ nav li {
 nav ul {
   padding: 0;
   margin: 0;
-}
-
-
-
-nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -82,7 +78,9 @@ nav {
 
 .main-container {
   width: 100%;
+  display: flex;
 }
+
 .main-half {
   width: 50%;
 }
@@ -99,16 +97,16 @@ nav {
 
 .media-container {
   position: relative;
+  padding: 0 2px;
 }
+
 
 .media-container__text {
   position: absolute;
   bottom: -1px;
 }
 
-.main-container {
-  display: flex;
-}
+
 
 .media-right {
   width: 50%;
@@ -120,9 +118,6 @@ nav {
   flex-wrap: wrap;
 }
 
-.media-container  {
-  padding: 0 2px;
-}
 
 .section-news, .news-flex, .article-news {
   width: 100%;
