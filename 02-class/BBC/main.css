@@ -97,7 +97,6 @@ nav {
 
 .media-container {
   position: relative;
-  padding: 0 2px;
 }
 
 
@@ -137,4 +136,6 @@ nav {
 }
 
 
-
+.img-main, .img-main--right {
+  padding: 4px 2px;
+}
