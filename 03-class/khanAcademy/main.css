@@ -30,19 +30,26 @@
   }
 
 
-/*above css is reset*/
 
-/*main css is below*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*main css*/
 
 
 .flex {
     display: flex;
     justify-content: space-around;
 }
-.center-h {
-    margin-left: auto;
-    margin-right: auto;
-}
-.nav-left-1 {
-    margin-right: 2rem;
-}
+
+
