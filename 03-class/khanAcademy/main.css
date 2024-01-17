@@ -107,3 +107,11 @@ main, nav {
   margin-top: 150px;
 
 }
+
+.nav-middle {
+  margin-inline: auto;
+}
+
+.nav-right {
+  gap: 10px;
+}
