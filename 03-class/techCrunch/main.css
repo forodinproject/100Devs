@@ -45,6 +45,10 @@
 
 /*main css is below*/
 
+body {
+  max-width: 1111px;
+}
+
 input {
   width: 100% 
 }
@@ -69,4 +73,19 @@ input {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+nav {
+  width: 210px;
+}
+
+.latest-content {
+  margin-left: 218px;
+}
+
+
+.latest-content article div, .latest-heading {
+  width: 33.333%;
+  margin: 16px;
+
 }
