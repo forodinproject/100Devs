@@ -28,17 +28,15 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-body {
-
+.max-screen {
+  max-width: 1230px;
 }
 
 nav {
   padding: 12px 36px 60px;
 }
 
-header {
 
-}
 
 .head-main-wrapper {
   background-color: #F5F9FC;
