@@ -9,6 +9,12 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 
 /******************************************
 /* BASE STYLES
@@ -26,15 +32,93 @@ body {
 
 }
 
+nav {
+  padding: 12px 36px 60px;
+}
+
 header {
 
 }
 
-footer {
-  background-color: #172127;
-
+.head-main-wrapper {
+  background-color: #F5F9FC;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+.flex {
+  display: flex;
+
+}
+
+.align-items-b {
+  align-items: baseline;
+}
+
+.align-items-c {
+  align-items: center;
+}
+
+.justify-sb {
+  justify-content: space-between;
+}
+
+
+.nav-list {
+  gap: 36px;
+}
+
+
+.logo-wrapper {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.btn {
+  color: #f5f5f5;
+  background-color: #273F54;
+  padding: 6px 18px;
+  font-weight: bold;
+}
+
+.input-main {
+  background-color: rgba(206, 206, 206, 0.521);
+  border: none;
+  flex-basis: 40%;
+}
+
+.main-right, .main-left {
+  flex-basis: 50%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.char-small {
+  max-width: 16ch;
+}
+
+.char-medium {
+  max-width: 32ch;
+}
+
+.padding-left {
+  padding-left: 144px;
+}
+
+.wrapper-features {
+  padding: 60px 0;
+  gap: 32px;
+}
+
+.section-info {
+  max-width: 400px;
+  padding: 60px 0;
+}
+
+h1, h2 {
+  font-size: 32px;
+}
