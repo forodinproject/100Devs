@@ -38,8 +38,22 @@ nav {
 
 
 
+.flex-maxscreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .head-main-wrapper {
   background-color: #F5F9FC;
+  align-self: stretch;
+}
+
+
+.flex-c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /******************************************
