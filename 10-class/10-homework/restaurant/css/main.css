@@ -193,11 +193,29 @@
 
 }
 
+.flex {
+     display: flex;
+}
+
+.flex-c {
+     display: flex;
+     flex-direction: column;
+}
+
+
 /******************************************
 /* BASE STYLES
 /*******************************************/
 * {
      margin: unset;
+}
+
+
+a {
+     text-decoration: none;
+     font: inherit;
+     color: inherit;
+
 }
 
 
@@ -211,15 +229,44 @@
 /* ADDITIONAL STYLES
 /*******************************************/
 
-.flex {
-     display: flex;
+/*
+Navigation
+*/
+.primary-header {
+     padding-top: var(--size-600);
 }
 
-.flex-c {
-     display: flex;
-     flex-direction: column;
+.nav-wrapper {
+     justify-content: space-between;
+     align-items: center;
 }
 
+.nav-list {
+     justify-content: flex-end;
+     align-items: baseline;
+     gap: var(--size-700)
+}
+
+.ham-icon {
+     width: 1.5em;
+     height: auto;
+}
+
+.mobile-nav-toggle {
+     display: none;
+}
+
+
+.mobile-nav-toggle {
+     cursor: pointer;
+     background-color: transparent;
+     border: 0;
+     padding: 0.5em;
+}
+
+.mobile-nav-toggle .ham-close {
+     display: none;
+}
 
 /*
 ----------------------------------------------------------------------------
@@ -242,6 +289,8 @@ TEMPORARY STYLES
 
 }
 
+/* MEDIA QUERY MOBILE*/
+
 @media (max-width: 50em) {
      .wrapper-cuisines {
           flex-direction: row;
@@ -250,7 +299,36 @@ TEMPORARY STYLES
      .cuisine-list {
           flex-direction: column;
      }
+
+     .primary-nav {
+          display: none;
+     }
+
+     .primary-nav[data-visible] {
+          display: block;
+          position: fixed;
+     }
+
+     .nav-list {
+          flex-direction: column;
+     }
+
+     .mobile-nav-toggle {
+          display: block;
+          cursor: pointer;
+          background-color: transparent;
+          border: 0;
+          padding: 0.5em;
+     }
+
+     .mobile-nav-toggle .ham-close {
+          display: none;
+     }
+
+
 }
+
+
 
 
 
@@ -266,6 +344,8 @@ TEMPORARY STYLES
      padding: 1em 2em;
      font-size: var(--fs-btn);
      line-height: 1;
+     color: var(--clr-accent-0);
+     background-color: var(--clr-accent-400);
 
 }
 
@@ -281,7 +361,6 @@ TEMPORARY STYLES
      border-top-left-radius: 0.3rem;
      border-bottom-left-radius: 0.3rem;
      border: 1px solid grey;
-
      border-right: unset;
      padding: 1em 2em;
      font-size: var(--fs-btn);
