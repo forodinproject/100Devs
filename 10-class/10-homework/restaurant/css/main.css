@@ -204,8 +204,7 @@
 
 
 :where(.flow > :not(:first-child)) {
-     padding-top: var(--flow-spacer, 10em);
-     outline: 1px solid red;
+     padding-top: var(--flow-spacer, 1.5em);
 }
 
 
