@@ -239,7 +239,7 @@ a {
 /* LAYOUT
 /*******************************************/
 .open--days {
-     justify-content: space-around;
+     gap: 15em;
 }
 
 /******************************************
@@ -301,6 +301,10 @@ Navigation
 }
 
 
+
+.customer-quote {
+     text-align: center;
+}
 
 
 /*
