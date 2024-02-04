@@ -286,11 +286,11 @@ Navigation
 
 
 /*CUISINE*/
-div .cuisine-times-list {
+.cuisine-times-list {
      align-self: stretch;
      justify-content: space-around;
 
-     border-bottom: 1px solid var(--clr-accent-400);
+     border-bottom: 1px solid grey;
      padding-bottom: 100px;
 }
 
