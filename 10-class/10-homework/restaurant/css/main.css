@@ -202,6 +202,10 @@
      flex-direction: column;
 }
 
+.align-items-center {
+     align-items: center;
+}
+
 
 :where(.flow > :not(:first-child)) {
      padding-top: var(--flow-spacer, 1.5em);
@@ -251,7 +255,6 @@ Navigation
 
 .nav-wrapper {
      justify-content: space-between;
-     align-items: center;
 }
 
 .nav-list {
@@ -281,12 +284,31 @@ Navigation
      display: none;
 }
 
+
+/*CUISINE*/
+div .cuisine-times-list {
+     align-self: stretch;
+     justify-content: space-around;
+
+     border-bottom: 1px solid var(--clr-accent-400);
+     padding-bottom: 100px;
+}
+
+.cuisine-times-list a:where(:hover, :focus) {
+     color: var(--clr-accent-400);
+     text-decoration: underline var(--clr-accent-400) 1px;
+     text-underline-offset: 3px;
+}
+
+
+
+
 /*
 ----------------------------------------------------------------------------
 TEMPORARY STYLES
 ----------------------------------------------------------------------------*/
 
-.wrapper-cuisines {
+.cuisines-list-wrapper {
      gap: 1em;
 }
 
