@@ -238,6 +238,26 @@ a {
 /******************************************
 /* LAYOUT
 /*******************************************/
+h1 {
+     max-width: 15ch;
+}
+
+
+.about-us h2 {
+     max-width: 15ch;
+}
+
+.about-us p {
+     max-width: 55ch;
+}
+
+.testimonials p {
+     max-width: 75ch;
+
+}
+
+
+
 .open--days {
      gap: 15em;
 }
