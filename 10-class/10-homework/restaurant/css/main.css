@@ -207,8 +207,8 @@
 }
 
 
-:where(.flow > :not(:first-child)) {
-     padding-top: var(--flow-spacer, 1.5em);
+:is(.flow > :not(:first-child)) {
+     margin-top: var(--flow-spacer, 1.5em);
 }
 
 
@@ -241,6 +241,18 @@ a {
 .open--days {
      gap: 15em;
 }
+
+@media (max-width: 50em) {
+     .open--days {
+          flex-direction: column;
+          gap: var(--size-400);
+     }
+}
+
+
+
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
@@ -305,6 +317,21 @@ Navigation
 .customer-quote {
      text-align: center;
 }
+
+
+/*FOOTER*/
+.wrapper-footer {
+     justify-content: space-around;
+}
+
+footer h4 {
+     font-size: var(--fs-500);
+}
+
+footer p {
+     max-width: 32ch;
+}
+
 
 
 /*

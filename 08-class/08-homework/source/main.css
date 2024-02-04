@@ -1,0 +1,209 @@
+/* RESET */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  font: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.max-screen {
+  max-width: 1230px;
+}
+
+nav {
+  padding: 12px 36px 60px;
+}
+
+
+
+.flex-maxscreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head-main-wrapper {
+  background-color: #F5F9FC;
+  align-self: stretch;
+}
+
+
+.flex-c {
+  display: flex;
+  flex-direction: column;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.flex {
+  display: flex;
+}
+
+.align-items-b {
+  align-items: baseline;
+}
+
+.align-items-c {
+  align-items: center;
+}
+
+.justify-sb {
+  justify-content: space-between;
+}
+
+
+.nav-list {
+  gap: 36px;
+}
+
+
+.logo-wrapper {
+  font-weight: bold;
+}
+
+.btn {
+  color: #f5f5f5;
+  background-color: #273F54;
+  padding: 6px 18px;
+  font-weight: bold;
+}
+
+.input-main {
+  background-color: rgba(206, 206, 206, 0.521);
+  border: none;
+  flex-basis: 40%;
+}
+
+.main-right, .main-left {
+  flex-basis: 50%;
+  flex-grow: 1;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.char-small {
+  max-width: 16ch;
+}
+
+.char-medium {
+  max-width: 32ch;
+}
+
+.padding-left {
+  padding-left: 144px;
+}
+
+.wrapper-features {
+  padding: 60px 0;
+  gap: 32px;
+}
+
+.wrapper-info {
+  width: 100%;
+}
+
+.info {
+  max-width: 50ch;
+  padding: 60px 0;
+}
+
+h1, h2 {
+  font-size: 2rem;
+}
+
+.logo-wrapper {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.m-auto {
+  margin-inline: auto;
+}
+
+
+
+/******************************************
+/* MEDIA QUERIES
+/*******************************************/
+
+
+
+@media screen and (max-width: 700px) {
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+  }
+  .nav-list, .btn-nav {
+    display: none;
+  
+  }
+  .padding-left {
+    padding-left: 0;
+  }
+
+
+  .mega-wrapper {
+    padding-inline: 24px;
+  }
+
+* {
+    width: 100%;
+  }
+
+
+.logo-wrapper {
+  width: fit-content;
+  align-self: center;
+
+}
+
+html {
+  font-size: 18px;
+}
+
+
+.wrapper-features div {
+  border-bottom: 2px solid grey;
+}
+
+}
