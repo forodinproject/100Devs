@@ -291,13 +291,13 @@ Navigation
      justify-content: space-around;
 
      border-bottom: 1px solid grey;
-     padding-bottom: 100px;
+     padding-bottom: 3px;
 }
 
 .cuisine-times-list a:where(:hover, :focus) {
      color: var(--clr-accent-400);
      text-decoration: underline var(--clr-accent-400) 1px;
-     text-underline-offset: 3px;
+     text-underline-offset: 10px;
 }
 
 
